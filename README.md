@@ -10,6 +10,6 @@
 
 * Import: `from ESAE import EvolutionarySAE`
 
-* Train: `fit(X, y)`, with target `0, ..., K` as the labels
+* Train: `fit(X, y)`, with target `0, ..., K` as the labels.
 
-* Predict: `predict(X)`
+* Predict: `predict(X)` (hard), `predict_proba(X)` (soft), or `predict(X, n_estimator=1)` (using EHMC instead of ESAE, may cause severe performance degradation).
