@@ -1,4 +1,4 @@
-# Balanced-Evolutionary-Semi-Stacking
+# Forest of Evolutionary Hierarchical Classifiers (FEHC)
 
 * Required Python 3 packages: 
     1. sklearn (https://github.com/scikit-learn/scikit-learn)
@@ -6,7 +6,7 @@
     3. lightgbm (optional, https://github.com/microsoft/LightGBM)
     4. xgboost (optional, https://github.com/dmlc/xgboost)
 
-* ESAE is compatible with most sklearn APIs but is not strictly tested.
+* FEHC is compatible with most sklearn APIs but is not strictly tested.
 
 * Import: `from ESAE import EvolutionarySAE`
 
