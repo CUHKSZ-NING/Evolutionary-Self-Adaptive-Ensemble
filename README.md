@@ -12,7 +12,7 @@
 
 * Import: `from FEHCClassifier import FEHCClassifier`
 
-* Train: `fit(X, y)`, with target `0, ..., K` as the labels.
+* Train: `fit(X, y)`, with target $\{0, ..., K\}$ as the labels.
 
 * Predict: `predict(X)` (hard prediction), `predict_proba(X)` (probalistic prediction), or `predict(X, n_estimator=1)` (using the EHMC instead of ESAE to predict, faster but possibly leading to performance degradation).
 
