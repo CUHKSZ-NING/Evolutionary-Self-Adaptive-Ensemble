@@ -10,8 +10,8 @@
 
 * FEHC is compatible with most sklearn APIs but is not strictly tested.
 
-* Import: `from ESAE import EvolutionarySAE`
+* Import: `from FEHCClassifier import FEHCClassifier`
 
 * Train: `fit(X, y)`, with target `0, ..., K` as the labels.
 
-* Predict: `predict(X)` (hard), `predict_proba(X)` (soft), or `predict(X, n_estimator=1)` (using EHMC instead of ESAE to predict, may cause severe performance degradation).
+* Predict: `predict(X)` (hard), `predict_proba(X)` (probalistic), or `predict(X, n_estimator=1)` (using the EHMC instead of ESAE to predict, faster but possibly leading to performance degradation).
