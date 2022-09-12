@@ -1,6 +1,6 @@
 # Forest of Evolutionary Hierarchical Classifiers (FEHC)
 
-* Code for manuscript "To Combat Multi-class Imbalanced Problems by Aggregating Evolutionary Hierarchical Classifiers" (In Submission)
+* Code for the manuscript "To Combat Multi-class Imbalanced Problems by Aggregating Evolutionary Hierarchical Classifiers" (In Submission)
 
 * Required Python 3 packages: 
     1. sklearn (https://github.com/scikit-learn/scikit-learn)
