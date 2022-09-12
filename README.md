@@ -17,6 +17,6 @@
 * Predict: `predict(X)` (hard), `predict_proba(X)` (probalistic), or `predict(X, n_estimator=1)` (using the EHMC instead of ESAE to predict, faster but possibly leading to performance degradation).
 
 * Tuning: 
-    1. base_estimators: dict, default={'DT': DecisionTreeClassifier()}, "base classifiers, should have predict_proba() function"
+    1. base_estimators: dict, default={'DT': DecisionTreeClassifier()}, candidate classifiers $\mathcal{C}$, should have predict_proba() function"
     2. n_estimators: int, default=30, "the number of EHMCs in the FEHC"
     3. population: int, default=10, "the population size $\theta_P$ of the MCGA"
