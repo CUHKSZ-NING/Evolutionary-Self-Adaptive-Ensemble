@@ -4,7 +4,8 @@
 
 * Required Python 3 packages: 
     1. sklearn (https://github.com/scikit-learn/scikit-learn)
-    2. glob (for dataset loading, `datasets = joblib.load('MCIDatasets.pkl')`)
+    2. imblearn (https://github.com/scikit-learn-contrib/imbalanced-learn)
+    3. glob (for dataset loading, `datasets = joblib.load('MCIDatasets.pkl')`)
 
 * FEHC is compatible with most sklearn APIs but is not strictly tested.
 
