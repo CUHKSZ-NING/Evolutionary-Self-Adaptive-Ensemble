@@ -13,7 +13,7 @@
 
 * Train: `fit(X, y)`, with target $y_i \in \{0, ..., K - 1\}$ as the labels.
 
-* Predict: `predict(X)` (hard prediction), `predict_proba(X)` (probalistic prediction), or `predict(X, n_estimator=1)` (using the EHMC instead of ESAE to predict, faster but possibly leading to performance degradation).
+* Predict: `predict(X)` (hard prediction), `predict_proba(X)` (probabilistic prediction), or `predict(X, n_estimator=1)` (using the EHMC instead of ESAE to predict, faster but possibly leading to performance degradation).
 
 * Non-trivital parameters: 
     1. `base_estimators`: dict, `default={'DT': DecisionTreeClassifier()}`, candidate classifier set $\mathcal{C}$, should have predict_proba() function"
