@@ -21,4 +21,4 @@
     3. `population`: int, `default=10`, "the population size $\theta_P$ of the MCGA"
     4. `iteration`: int, `default=5`, "the number of iteration rounds $\theta_I$ of the MCGA"
  
-* Related multi-class imbalanced datasets can be found in <strong>Releases</strong>.
+* Related multi-class imbalanced datasets can be found in [Releases](https://github.com/CUHKSZ-NING/FEHCClassifier/releases).
