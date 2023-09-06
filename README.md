@@ -20,3 +20,5 @@
     2. `n_estimators`: int, `default=30`, "the number of EHMCs $n$ in the FEHC"
     3. `population`: int, `default=10`, "the population size $\theta_P$ of the MCGA"
     4. `iteration`: int, `default=5`, "the number of iteration rounds $\theta_I$ of the MCGA"
+ 
+* Examined datasets can be found in ``Release''.
